@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227E8AE414223E94002EABBE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227E8AE314223E94002EABBE /* Cocoa.framework */; };
+		227E8AEE14223E94002EABBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227E8AEC14223E94002EABBE /* InfoPlist.strings */; };
+		227E8AF014223E94002EABBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E8AEF14223E94002EABBE /* main.m */; };
+		227E8AF414223E94002EABBE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 227E8AF214223E94002EABBE /* Credits.rtf */; };
+		227E8AF714223E94002EABBE /* WeatherStationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E8AF614223E94002EABBE /* WeatherStationAppDelegate.m */; };
+		227E8AFA14223E95002EABBE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227E8AF814223E95002EABBE /* MainMenu.xib */; };
+		227E8AFD14223E95002EABBE /* WeatherStation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 227E8AFB14223E95002EABBE /* WeatherStation.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		227E8ADF14223E94002EABBE /* WeatherStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227E8AE314223E94002EABBE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		227E8AE614223E94002EABBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		227E8AE714223E94002EABBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		227E8AE814223E94002EABBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		227E8AEB14223E94002EABBE /* WeatherStation-Info.plist */ = {isa = PBXFileReference; path = "WeatherStation-Info.plist"; sourceTree = "<group>"; };
+		227E8AED14223E94002EABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227E8AEF14223E94002EABBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227E8AF114223E94002EABBE /* WeatherStation-Prefix.pch */ = {isa = PBXFileReference; path = "WeatherStation-Prefix.pch"; sourceTree = "<group>"; };
+		227E8AF314223E94002EABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		227E8AF514223E94002EABBE /* WeatherStationAppDelegate.h */ = {isa = PBXFileReference; path = WeatherStationAppDelegate.h; sourceTree = "<group>"; };
+		227E8AF614223E94002EABBE /* WeatherStationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherStationAppDelegate.m; sourceTree = "<group>"; };
+		227E8AF914223E95002EABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		227E8AFC14223E95002EABBE /* WeatherStation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherStation.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227E8ADC14223E94002EABBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E8AE414223E94002EABBE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227E8AD414223E94002EABBE = {
+			isa = PBXGroup;
+			children = (
+				227E8AE914223E94002EABBE /* WeatherStation */,
+				227E8AE214223E94002EABBE /* Frameworks */,
+				227E8AE014223E94002EABBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227E8AE014223E94002EABBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227E8ADF14223E94002EABBE /* WeatherStation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227E8AE214223E94002EABBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227E8AE314223E94002EABBE /* Cocoa.framework */,
+				227E8AE514223E94002EABBE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		227E8AE514223E94002EABBE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227E8AE614223E94002EABBE /* AppKit.framework */,
+				227E8AE714223E94002EABBE /* CoreData.framework */,
+				227E8AE814223E94002EABBE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		227E8AE914223E94002EABBE /* WeatherStation */ = {
+			isa = PBXGroup;
+			children = (
+				227E8AF514223E94002EABBE /* WeatherStationAppDelegate.h */,
+				227E8AF614223E94002EABBE /* WeatherStationAppDelegate.m */,
+				227E8AF814223E95002EABBE /* MainMenu.xib */,
+				227E8AFB14223E95002EABBE /* WeatherStation.xcdatamodeld */,
+				227E8AEA14223E94002EABBE /* Supporting Files */,
+			);
+			path = WeatherStation;
+			sourceTree = "<group>";
+		};
+		227E8AEA14223E94002EABBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227E8AEB14223E94002EABBE /* WeatherStation-Info.plist */,
+				227E8AEC14223E94002EABBE /* InfoPlist.strings */,
+				227E8AEF14223E94002EABBE /* main.m */,
+				227E8AF114223E94002EABBE /* WeatherStation-Prefix.pch */,
+				227E8AF214223E94002EABBE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227E8ADE14223E94002EABBE /* WeatherStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227E8B0014223E95002EABBE /* Build configuration list for PBXNativeTarget "WeatherStation" */;
+			buildPhases = (
+				227E8ADB14223E94002EABBE /* Sources */,
+				227E8ADC14223E94002EABBE /* Frameworks */,
+				227E8ADD14223E94002EABBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherStation;
+			productName = WeatherStation;
+			productReference = 227E8ADF14223E94002EABBE /* WeatherStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227E8AD614223E94002EABBE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 227E8AD914223E94002EABBE /* Build configuration list for PBXProject "WeatherStation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 227E8AD414223E94002EABBE;
+			productRefGroup = 227E8AE014223E94002EABBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227E8ADE14223E94002EABBE /* WeatherStation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227E8ADD14223E94002EABBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E8AEE14223E94002EABBE /* InfoPlist.strings in Resources */,
+				227E8AF414223E94002EABBE /* Credits.rtf in Resources */,
+				227E8AFA14223E95002EABBE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227E8ADB14223E94002EABBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227E8AF014223E94002EABBE /* main.m in Sources */,
+				227E8AF714223E94002EABBE /* WeatherStationAppDelegate.m in Sources */,
+				227E8AFD14223E95002EABBE /* WeatherStation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		227E8AEC14223E94002EABBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E8AED14223E94002EABBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		227E8AF214223E94002EABBE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E8AF314223E94002EABBE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		227E8AF814223E95002EABBE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227E8AF914223E95002EABBE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227E8AFE14223E95002EABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		227E8AFF14223E95002EABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		227E8B0114223E95002EABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherStation/WeatherStation-Prefix.pch";
+				INFOPLIST_FILE = "WeatherStation/WeatherStation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		227E8B0214223E95002EABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherStation/WeatherStation-Prefix.pch";
+				INFOPLIST_FILE = "WeatherStation/WeatherStation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227E8AD914223E94002EABBE /* Build configuration list for PBXProject "WeatherStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E8AFE14223E95002EABBE /* Debug */,
+				227E8AFF14223E95002EABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227E8B0014223E95002EABBE /* Build configuration list for PBXNativeTarget "WeatherStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227E8B0114223E95002EABBE /* Debug */,
+				227E8B0214223E95002EABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		227E8AFB14223E95002EABBE /* WeatherStation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				227E8AFC14223E95002EABBE /* WeatherStation.xcdatamodel */,
+			);
+			currentVersion = 227E8AFC14223E95002EABBE /* WeatherStation.xcdatamodel */;
+			path = WeatherStation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 227E8AD614223E94002EABBE /* Project object */;
+}
