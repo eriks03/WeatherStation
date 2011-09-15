@@ -22,15 +22,16 @@
 		227E8AE614223E94002EABBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		227E8AE714223E94002EABBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		227E8AE814223E94002EABBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		227E8AEB14223E94002EABBE /* WeatherStation-Info.plist */ = {isa = PBXFileReference; path = "WeatherStation-Info.plist"; sourceTree = "<group>"; };
+		227E8AEB14223E94002EABBE /* WeatherStation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherStation-Info.plist"; sourceTree = "<group>"; };
 		227E8AED14223E94002EABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		227E8AEF14223E94002EABBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		227E8AF114223E94002EABBE /* WeatherStation-Prefix.pch */ = {isa = PBXFileReference; path = "WeatherStation-Prefix.pch"; sourceTree = "<group>"; };
+		227E8AF114223E94002EABBE /* WeatherStation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherStation-Prefix.pch"; sourceTree = "<group>"; };
 		227E8AF314223E94002EABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		227E8AF514223E94002EABBE /* WeatherStationAppDelegate.h */ = {isa = PBXFileReference; path = WeatherStationAppDelegate.h; sourceTree = "<group>"; };
+		227E8AF514223E94002EABBE /* WeatherStationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherStationAppDelegate.h; sourceTree = "<group>"; };
 		227E8AF614223E94002EABBE /* WeatherStationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherStationAppDelegate.m; sourceTree = "<group>"; };
 		227E8AF914223E95002EABBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		227E8AFC14223E95002EABBE /* WeatherStation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherStation.xcdatamodel; sourceTree = "<group>"; };
+		227E8B0314223EF1002EABBE /* dl-lesen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dl-lesen.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		227E8AE914223E94002EABBE /* WeatherStation */ = {
 			isa = PBXGroup;
 			children = (
+				227E8B0314223EF1002EABBE /* dl-lesen.h */,
 				227E8AF514223E94002EABBE /* WeatherStationAppDelegate.h */,
 				227E8AF614223E94002EABBE /* WeatherStationAppDelegate.m */,
 				227E8AF814223E95002EABBE /* MainMenu.xib */,
